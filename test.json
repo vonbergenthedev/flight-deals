@@ -1,0 +1,106 @@
+{
+  "data": [
+    {
+      "type": "flight-date",
+      "origin": "LGA",
+      "destination": "LAS",
+      "departureDate": "2025-03-18",
+      "returnDate": "2025-03-19",
+      "price": {
+        "total": "98.97"
+      },
+      "links": {
+        "flightDestinations": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=NYC&departureDate=2025-02-22,2025-03-23&oneWay=false&duration=1,15&nonStop=false&viewBy=WEEK",
+        "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=NYC&destinationLocationCode=LAS&departureDate=2025-03-18&returnDate=2025-03-19&adults=1&nonStop=false"
+      }
+    },
+    {
+      "type": "flight-date",
+      "origin": "EWR",
+      "destination": "LAS",
+      "departureDate": "2025-03-16",
+      "returnDate": "2025-03-19",
+      "price": {
+        "total": "102.00"
+      },
+      "links": {
+        "flightDestinations": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=NYC&departureDate=2025-02-22,2025-03-23&oneWay=false&duration=1,15&nonStop=false&viewBy=WEEK",
+        "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=NYC&destinationLocationCode=LAS&departureDate=2025-03-16&returnDate=2025-03-19&adults=1&nonStop=false"
+      }
+    },
+    {
+      "type": "flight-date",
+      "origin": "JFK",
+      "destination": "LAS",
+      "departureDate": "2025-03-04",
+      "returnDate": "2025-03-18",
+      "price": {
+        "total": "112.97"
+      },
+      "links": {
+        "flightDestinations": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=NYC&departureDate=2025-02-22,2025-03-23&oneWay=false&duration=1,15&nonStop=false&viewBy=WEEK",
+        "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=NYC&destinationLocationCode=LAS&departureDate=2025-03-04&returnDate=2025-03-18&adults=1&nonStop=false"
+      }
+    },
+    {
+      "type": "flight-date",
+      "origin": "EWR",
+      "destination": "LAS",
+      "departureDate": "2025-03-02",
+      "returnDate": "2025-03-14",
+      "price": {
+        "total": "145.99"
+      },
+      "links": {
+        "flightDestinations": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=NYC&departureDate=2025-02-22,2025-03-23&oneWay=false&duration=1,15&nonStop=false&viewBy=WEEK",
+        "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=NYC&destinationLocationCode=LAS&departureDate=2025-03-02&returnDate=2025-03-14&adults=1&nonStop=false"
+      }
+    },
+    {
+      "type": "flight-date",
+      "origin": "LGA",
+      "destination": "LAS",
+      "departureDate": "2025-02-22",
+      "returnDate": "2025-03-04",
+      "price": {
+        "total": "205.98"
+      },
+      "links": {
+        "flightDestinations": "https://test.api.amadeus.com/v1/shopping/flight-destinations?origin=NYC&departureDate=2025-02-22,2025-03-23&oneWay=false&duration=1,15&nonStop=false&viewBy=WEEK",
+        "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=NYC&destinationLocationCode=LAS&departureDate=2025-02-22&returnDate=2025-03-04&adults=1&nonStop=false"
+      }
+    }
+  ],
+  "dictionaries": {
+    "currencies": {
+      "USD": "US DOLLAR"
+    },
+    "locations": {
+      "EWR": {
+        "subType": "AIRPORT",
+        "detailedName": "NEWARK LIBERTY INTL"
+      },
+      "LGA": {
+        "subType": "AIRPORT",
+        "detailedName": "LAGUARDIA"
+      },
+      "JFK": {
+        "subType": "AIRPORT",
+        "detailedName": "JOHN F KENNEDY INTL"
+      },
+      "LAS": {
+        "subType": "AIRPORT",
+        "detailedName": "HARRY REID INTL"
+      }
+    }
+  },
+  "meta": {
+    "currency": "USD",
+    "links": {
+      "self": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=NYC&destination=LAS&departureDate=2025-02-22,2025-03-23&oneWay=false&duration=1,15&nonStop=false&viewBy=WEEK"
+    },
+    "defaults": {
+      "duration": "1,15"
+    }
+  }
+}
